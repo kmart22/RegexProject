@@ -1,5 +1,15 @@
 package regex.controller;
 
-public class RegexRunner {
+import regex.controller.RegexController;
 
+public class RegexRunner 
+{
+	public static void main(String[] args)
+	{
+		RegexController pokemonAppController = new RegexController();
+		pokemonAppController.start();
+	}
+
+	
+	
 }
